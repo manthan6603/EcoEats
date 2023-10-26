@@ -77,7 +77,7 @@ if(isset($_POST['logout'])){
       <div class="sidebar-heading"><?php echo $_SESSION['firstName']; echo " ".$_SESSION['lastName']; ?></div>
       <div class="list-group list-group-flush">
         <a href="user-homepage.php" class="list-group-item list-group-item-action bg-dark text-white">Home</a>
-        <a href="buyMachinery.php" class="list-group-item list-group-item-action bg-dark text-white">Buy Machinery</a>
+         
         <a href="buyFertilizer.php" class="list-group-item list-group-item-action bg-dark text-white">Buy Fertilizer</a>
         <a href="buyCrops.php" class="list-group-item list-group-item-action bg-dark text-white">Buy Crops</a>
         <a href="myOrders.php" class="list-group-item list-group-item-action bg-dark text-white">My Orders</a>

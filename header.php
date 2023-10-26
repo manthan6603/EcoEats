@@ -9,7 +9,7 @@
 </head>
 <body>
 <nav class="navbar navbar-light bg-dark">
-  <span class="navbar-brand mb-0 h1 text-white"><a href="../index.php" class="text-white" style="text-decoration:none;">AMS</a></span>
+  <span class="navbar-brand mb-0 h1 text-white"><a href="../index.php" class="text-white" style="text-decoration:none;">EcoEats</a></span>
 </nav>
 </body>
 </html>

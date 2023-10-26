@@ -73,6 +73,9 @@
         <div class="col">
           <h6 class="text-right">Amount to be Paid: <?php echo $data['orderPrice']; ?></h6>
         </div>
+        <div class="col">
+          <button class="btn btn-primary" id="pay-button">Pay Bill</button>
+        </div>
       </div>
     </div>
 
@@ -80,3 +83,26 @@
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+									<script>
+            document.getElementById("pay-button").addEventListener("click", function () {
+                var options = {
+                    "key": "rzp_test_4x4SkOvOeVVpuH",
+                    "amount": 50000,
+                    "currency": "INR",
+                    "name": "EcoEats",
+                    "description": "Payment Description",
+                    // "order_id": "{{ payment.id }}",
+                    "handler": function (response) {
+                        // Handle the payment response here (e.g., send to your server for verification)
+                    },
+                    "prefill": {
+                        "name": "User's Name",
+                        "email": "user@example.com",
+                        "contact": "1234567890"
+                    }
+                };
+                var rzp = new Razorpay(options);
+                rzp.open();
+            });
+        </script>

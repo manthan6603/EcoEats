@@ -75,8 +75,8 @@ if(isset($_POST['logout'])){
         <a href="farmer-homepage.php" class="list-group-item list-group-item-action bg-dark text-white">Home</a>
         <a href="sellCrop.php" class="list-group-item list-group-item-action bg-dark text-white">Sell Crop</a>
         <a href="myCrops.php" class="list-group-item list-group-item-action bg-dark text-white">My Crops</a>
-        <a href="hireLabour.php" class="list-group-item list-group-item-action bg-dark text-white">Hire Labour</a>
-        <a href="buyMachinery.php" class="list-group-item list-group-item-action bg-dark text-white">Buy Machinery</a>
+        <!-- <a href="hireLabour.php" class="list-group-item list-group-item-action bg-dark text-white">Hire Labour</a> -->
+        <!--   -->
         <a href="buyFertilizer.php" class="list-group-item list-group-item-action bg-dark text-white">Buy Fertilizer</a>
         <a href="recievedOrders.php" class="list-group-item list-group-item-action bg-dark text-white">Recieved Orders</a>
         <a href="myOrders.php" class="list-group-item list-group-item-action bg-dark text-white">My Orders</a>
